@@ -8,7 +8,7 @@ int main() {
     for(int i=0; i<n; i++)
     {
         cout<<d<<endl;
-        d+n;
+        d=d+n;
     }
 
     return 0;
