@@ -7,7 +7,7 @@ int main() {
     d=a+n;
     for(int i=0; i<n; i++)
     {
-        cout<<d<<endll;
+        cout<<d<<endl;
         d+n;
     }
 
