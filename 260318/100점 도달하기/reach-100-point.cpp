@@ -15,7 +15,7 @@ int main() {
         }
         else if (i>=70)
         {
-            cout<<"E"<<" "; 
+            cout<<"C"<<" "; 
         }
         else if (i>=60)
         {
