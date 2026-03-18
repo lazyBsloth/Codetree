@@ -6,25 +6,24 @@ int main() {
     cin>>n;
 
     for(int i=n; i<101; i++){
-        if(n>=90){
+        if(i>=90){
             cout<<"A"<<" "; 
         }
-        else if (n>=80)
+        else if (i>=80)
         {
             cout<<"B"<<" "; 
         }
-        else if (n>=70)
+        else if (i>=70)
         {
             cout<<"E"<<" "; 
         }
-        else if (n>=60)
+        else if (i>=60)
         {
             cout<<"D"<<" "; 
         }
         else{
             cout<<"F"<<" "; 
         }
-        n++;
     }
     // Please write your code here.
     return 0;
