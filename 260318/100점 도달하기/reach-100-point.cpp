@@ -24,6 +24,7 @@ int main() {
         else{
             cout<<"F"<<" "; 
         }
+        n++;
     }
     // Please write your code here.
     return 0;
