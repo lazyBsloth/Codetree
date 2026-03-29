@@ -5,19 +5,19 @@ int main() {
     int n, row[4];
     cin>>n;
 
-    for(int i=0; i<4; i++){
+    for(int i=0; i<n; i++){
         int cnt=0;
-        for(int j=0; j<4; j++){
+        for(int j=0; j<n; j++){
             cnt++;
             row[j]=cnt;
         }
         if(i%2!=0){
-            for(int i=3; i>=0; i--){
+            for(int i=n-1; i>=0; i--){
                 cout<<row[i];
             }
         }
         else{
-            for(int i=0; i<4; i++){
+            for(int i=0; i<n; i++){
                 cout<<row[i];
             }
         }
